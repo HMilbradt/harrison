@@ -11,4 +11,8 @@ Traveling, food, cooking, pretty standard stuff, but nonetheless great 😁.  I 
 
 ### Things I don't like
 
-Missing happy hour by 1 minute, 502 errors, and my succelents dying 😤.
+Missing happy hour by 1 minute, 502 errors, and my succulents dying 😤.
+
+### Coffee
+
+Thought I'd forget to mention coffee? Nope, it just gets its own section.  I absolutely live for coffee, HMU with a double shot espresso sometime, I'll be waiting at Pallet Coffee.
