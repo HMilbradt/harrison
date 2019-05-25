@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: I Make Things.
-image: /img/dsc_0169.jpg
+image: /img/home-jumbotron.jpg
 heading: What Do I Do
 subheading: Software. Bugs. Bad Playlists.
 mainpitch:
