@@ -2,6 +2,7 @@
 templateKey: about-page
 image: /img/products-grid1.jpg
 title: Who Am I
+subtitle: Who Am I
 ---
 Hey y'all, my name is Harrison.  I'm a graduate from [British Columbia Institute of Technology](<https://www.bcit.ca/>), where I took the Web and Mobile option.
 
