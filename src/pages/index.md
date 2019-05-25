@@ -8,8 +8,7 @@ mainpitch:
   title: What I'm Up To Now
   description: >
     If you didn't already hear, I'm working for the startup Logo.com, helping to
-    create the next revolution in the design industry. Check it out
-    [here](https://logo.com "Logo.com Homepage")
+    create the next revolution in the design industry.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
