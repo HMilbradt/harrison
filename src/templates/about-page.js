@@ -77,7 +77,8 @@ export const AboutPageTemplate = ({ title, image, content, contentComponent }) =
 
 AboutPageTemplate.propTypes = {
     title: PropTypes.string.isRequired,
-    content: PropTypes.string,
+    subtitle: PropTypes.string.isRequired,
+    content: PropTypes.string.isRequired,
     image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     contentComponent: PropTypes.func
 }
@@ -110,6 +111,7 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title,
+        subtitle
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
