@@ -8,13 +8,17 @@ mainpitch:
   description: >
     If you didn't already hear, I'm working for the startup Logo.com, helping to
     create the next revolution in the design industry.
-heading: What I Do
-description: "To read my engineering stuff, check out my blog, or click the Github icon in the navbar to check out some code.  Now here's some coolr pictures \U0001F60E"
+heading: Things I'm Really Interested In
+description: >-
+  I love writing code, but it's not the only thing I do.  Here's a list of a few
+  of the things I really like.  For more, make sure to check out my blog.
 intro:
   blurbs:
-    - image: /img/berlin-wall.jpeg
-      text: |
-        AWS Stuff goes here
+    - image: /img/aws-cloud.png
+      text: >
+        I really like AWS.  I use it in almost every project, professional and
+        personal, attend meetups, and try to learn something new about it every
+        day!
     - image: /img/coffee-gear.png
       text: |
         Throw down the database stuff here
