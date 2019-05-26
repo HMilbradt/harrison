@@ -1,8 +1,8 @@
 ---
 templateKey: about-page
 image: /img/iceland-frost.jpg
-title: Who Am I
-subtitle: Code x Weird
+title: Who I Am
+subtitle: "\U0001F60E\U0001F601\U0001F468‍\U0001F4BB\U0001F355☕️\U0001F3DD\U0001F1E8\U0001F1E6 \U0001F9D4\U0001F3FB"
 ---
 Hey y'all, my name is Harrison.  I'm a graduate from [British Columbia Institute of Technology](<https://www.bcit.ca/>), where I took the Web and Mobile option.
 
