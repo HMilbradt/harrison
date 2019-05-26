@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-image: /img/iceland-frost.jpg
+image: /img/pink-sky.jpeg
 title: Who I Am
 subtitle: "\U0001F60E\U0001F601\U0001F468‍\U0001F4BB\U0001F355☕️\U0001F3DD\U0001F1E8\U0001F1E6 \U0001F9D4\U0001F3FB"
 ---
