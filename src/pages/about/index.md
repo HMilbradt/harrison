@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-image: /img/dsc_0314.jpeg
+image: /img/iceland-frost.jpg
 title: Who Am I
 subtitle: Code x Weird
 ---
