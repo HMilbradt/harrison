@@ -1,29 +1,89 @@
 ---
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
-date: 2017-01-04T15:04:10.000Z
-featuredpost: false
-featuredimage: /img/chemex.jpg
-description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
+title: Testing Stripe Webhooks Locally
+date: 2019-05-28T14:04:10.000Z
+description: "Testing web hooks doesn't have to be frustrating.  Learn how to use Stripe with Ngrok to receive web hooks locally, supercharging your development process \U0001F64F"
+featuredpost: true
+featuredimage: /img/frost.jpg
 tags:
-  - brewing
-  - chemex
+  - engineering javascript
 ---
-![chemex](/img/chemex.jpg)
+![frost](/img/frost.jpg "Frost")
 
-This week we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts.
+## Setup
 
-In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital) said that the Chemex Coffeemaker is _"one of the best-designed products of modern times"_, and so is included in the collection of the Museum of Modern Art in New York City.
+I'm assuming you've hit this post because of similar frustrations I've had in the past, so I'll just dive right in.  Go ahead and clone the following repo:
 
-## The little secrets of Chemex brewing
+`git clone https://github.com/HMilbradt/stripe-ngrok.git`
 
-The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conical funnel-like neck (rather than the cylindrical neck of an Erlenmeyer flask) and uses proprietary filters, made of bonded paper (thicker-gauge paper than the standard paper filters for a drip-method coffeemaker) that removes most of the coffee oils, brewing coffee with a taste that is different than coffee brewed in other coffee-making systems; also, the thicker paper of the Chemex coffee filters may assist in removing cafestol, a cholesterol-containing compound found in coffee oils. Here’s three important tips newbies forget about:
+Once finished, run the following:
 
-1. Always buy dedicated Chemex filters.
-2. Use a scale, don’t try to eyeball it.
-3. Never skip preheating the glass.
-4. Timing is key, don’t forget the clock.
+`cd stripe-ngrok && npm install`
 
-The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
+That's it for the code setup.  The next step is to make sure you've got Ngrok installed.
 
-For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.
+## Ngrok
+
+Let's get Ngrok installed.  You can use this command to add Ngrok to your machine:
+
+`brew cask install ngrok`
+
+While that's installing, go ahead and sign up for an account on their [site](https://ngrok.com).
+
+To finish off, let's get you signed into Ngrok in your terminal.  Your token can be found [here](https://dashboard.ngrok.com/auth), which you can then place in the following command.  Make sure to fill in your auth token.
+
+`ngrok authtoken <your-token-here>`
+
+## Stripe
+
+If you don't already have an account with [Stripe](https://stripe.com), go ahead and create one.  If you do, sign in and grab your private key.  It can be found by clicking "View test data", then in Developers > API Keys.  Make sure you grab the one labelled "Secret Key".
+
+We're also going to need to add a webhook at this stage, but you may have already noticed a problem; This server isn't running anywhere accessible for Stripe.  But that's what we're going to fix.
+
+In a separate terminal, run the following command:
+
+`ngrok http 3000`
+
+This is going to start Ngrok, which is going to forward all traffic received to localhost on port 3000.  Incidentally, this is the port our app will be listening on 👌.  The URL Ngrok will spit out for us should look a little something like this:
+
+`https://88096e42.ngrok.io`
+
+Now head to Developers > Webhooks, and click "Add Webhook", then paste in the URL Ngrok gave us.  For events, just select "Account".  In the future, you would check off the webhooks you need to receive here, and Stripe would handle filtering the ones you don't need.
+
+Once finished, you should see a section called "Signing Secret".  Make note of that, we're going to need it shortly.
+
+## Fire Up The Server
+
+In order to do that, we're going to need a couple things.  First, open up `index.js` and on line 4, paste in your Stripe secret key.
+
+Next, paste in the Stripe signing secret on line 5.
+
+We should be ready to go, so in a new terminal (Remember, don't close your Ngrok terminal) run the following:
+
+`npm start`
+
+Opening the link this gives you should be met by a message containg a 😎.  If so, you've almost made it.  If not, make sure all your secrets are filled in properly.
+
+## Sending A Test Webhook
+
+With the server running on port 3000, and Ngrok forwarding requests in the background, it's time for us to head back over to Stripe and send off our first test webhook.
+
+Navigate to Developers > Webhooks, then click "Send Test Webhook", then click the Send button.  With any luck, you should see "200" appear in the response box.  This is the status code of the request, so 200 means everything worked.  Head to the terminal that's running node to see if this worked.
+
+You should see the Stripe webhook body, along with a message saying "Event successfully parsed locally."
+
+Congratulations!  You're now set up to debug and test your Stripe integration locally.
+
+## Final Notes
+
+This guide also teaches you how to check the webhooks signature, which is recommended by Stripe as a best practice.  You can read more about this [here](https://stripe.com/docs/webhooks/signatures).
+
+Important to note, Ngrok will not start with the same URL every time, unless you have a reserved URL on their paid plan.  This means that when starting up your environment, there's a checklist that you need to follow:
+
+1. Start Ngrok listening on the port you need
+2. Edit your old Stripe webhook to use the new URL
+3. Ensure the Stripe signing secret is the same.
+
+That's all for this guide.  Hope it helps some of you out there.  Stay tuned for the next post!
+
+Thanks for reading 🙏
