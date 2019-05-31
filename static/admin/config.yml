@@ -4,6 +4,8 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+publish_mode: editorial_workflow
+site_url: https://harrisonmilbradt.com
 
 collections:
   - name: "blog"
