@@ -15,13 +15,9 @@ tags:
 
 Emphasis on the brief.  I won't dive too much into the basics, but here's some reading on SSG and SSR. Assuming you know the basics, let's get started.
 
-
-
 # How To Decide
 
 Instead of listing the benefits of each, I want to instead focus on some real examples, since ultimately every use case will fall somewhere in the middle of which is best.  Hopefully this helps clearly illustrate some of the problems each is good at solving, and gives you the tools necessary to make the right decision!
-
-
 
 # A Blog
 
@@ -33,16 +29,6 @@ An exception to this is the amount of content, and the frequency of updates to t
 
 Along with amount of content, you also need to consider the frequency of updates.  Since every update is going to trigger a rebuild, this means you'll be waiting to see new content.  For a small site, this shouldn't be too long, but combined with a large amount of posts and you may be constantly building your site.
 
-# A Portfolio
 
 
-
-
-
-
-
-
-
-
-
-#
+# More To Come
