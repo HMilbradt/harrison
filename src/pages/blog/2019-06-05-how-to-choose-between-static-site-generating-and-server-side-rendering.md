@@ -13,7 +13,7 @@ tags:
 ---
 # Brief Introduction
 
-With the introduction of JAMStack, it seems like you can't get away from the debate between static site rendering and server side rendering.  And there's a pretty good reason for it.  JAMStack has been one of the easiest stacks to get up and running with (This blog was built with it).
+With the introduction of JAMStack, it seems like you can't get away from the debate between static site rendering and server side rendering.  And there's a pretty good reason for it.  JAMStack has been one of the easiest stacks to get up and running with (This blog was built with it), and opens a lot of doors for developers and technical bloggers wanting to try something new.
 
 However, I don't see static site rendering sweeping the industry, and there's a few important reasons why.  Today, I'll be talking about those reasons, learned through experience from working with both methods.
 
@@ -47,9 +47,13 @@ There's a lot of guides and templates out there, so I won't go into this in too 
 
 At this point, all the given combinations of the previous solutions haven't worked out, and we need a little more flexibility in our project.  This is most likely going to require server side rendering.
 
-I'm going to cover the tradeoffs in a lot more detail in the next section, but you'd generally only pick this option if you have a lot of dynamically loaded content that needs to be indexed, alongside a complicated application.
+With SSR, you gain access to a whole new degree of flexibility.  You're no longer locked down to JavaScript, which depending on your experience may make or break your project.  
 
-#  Project Complexity
+It's also going to allow you to write much more complicated business logic, which could be proprietary, or too computation heavy for mobile devices.  
+
+I'm going to cover the tradeoffs in a lot more detail in the next section, but you'd generally only pick this option if you have a lot of dynamically loaded content that needs to be indexed, alongside complicated business logic.
+
+# Project Complexity
 
 Let's switch gears now and move over to the technical mumbo jumbo.  At this point in the article, we've covered a lot of really great solutions, but you've probably noticed a recurring theme.  Each new solution adds a new layer of complexity and a swarm of new challenges.
 
@@ -62,3 +66,9 @@ If all you're doing is running a blog or portfolio, you should probably just sti
 Something that's often overlooked with static sites, which I thought I should mention, is the way it works.  Generally, every time you want to publish new content, you have to rebuild the entire site.  As a single blogger or developer, this is hardly a problem.
 
 But imagine a team of bloggers, constantly producing content.  Each change has to run through a build process, and depending on the amount of content and the machine that's doing the rendering, this can start to slow down over time.  Keep this in mind when building a site that's going to be deployed to frequently with new content.
+
+Also of note, all these solutions can be mixed and matched to really suit your use case. You may require a server, but have content that is static and can be rendered at build time, so you might choose to render your static content, and use your server to render any dynamic content on the fly.
+
+# The Conclusion
+
+Make sure you know what you're building.  Choosing between SSG and SSR means choosing amongst a whole host of complications and challenges in addition to the solutions they bring.  Keeping this in mind will help you make the right decision and won't let you over complicate your project; Keep it simple, stupid.
