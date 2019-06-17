@@ -7,6 +7,7 @@ module.exports = {
       'Software Developer Extraordinaire.',
   },
   plugins: [
+    `gatsby-plugin-advanced-sitemap`,
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
