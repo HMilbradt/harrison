@@ -3,6 +3,7 @@ var proxy = require('http-proxy-middleware')
 module.exports = {
   siteMetadata: {
     title: 'Harrison Milbradt',
+    siteUrl: 'https://harrisonmilbradt.com',
     description:
       'Software Developer Extraordinaire.',
   },
