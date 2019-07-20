@@ -12,6 +12,8 @@ featuredimage: /img/bcit-logo.jpeg
 tags:
   - engineering
 ---
+![BCIT](/img/bcit-logo.jpeg "BCIT")
+
 Despite this post being largely about software engineering, and specifically devoted to BCIT CST grads, there's a great deal that can be generalized into whatever field or career you're looking to go into.  And while I could write an entire book on my experiences I've had post-graduation, I believe these 5 things will be the most impactful for a new graduates first steps.
 
 ## Be Realistic
