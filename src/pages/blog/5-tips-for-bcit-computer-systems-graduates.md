@@ -13,7 +13,7 @@ tags:
 ---
 ![BCIT](/img/bcit-logo.jpeg "BCIT")
 
-Despite this post being largely about software engineering, and specifically devoted to BCIT CST grads, there's a great deal that can be generalized into whatever field or career you're looking to go into.  And while I could write an entire book on my experiences I've had post-graduation, I believe these 5 things will be the most impactful for a new graduates first steps.
+Despite this post being largely about software engineering, and specifically devoted to BCIT CST graduates, there's a great deal that can be generalized into whatever field or career you're looking to go into.  And while I could write an entire book on my experiences I've had post-graduation, I believe these 5 things will be the most impactful for a new BCIT graduates first steps.
 
 ## Be Realistic
 
@@ -37,7 +37,7 @@ So my advice?  Cast your net wide, learn from every interview you get (or don't 
 
 ![Stackoverflow](/img/stackoverflow-logo-700x467.png "Stackoverflow")
 
-Without the structured lessons, many graduates find it difficult to keep honing their skills.  There's plenty of free courses on YouTube, paid courses on [Udemy](https://www.udemy.com), and tons of meetups happening all the time.  But one of the single most valuable excercises for me has been posting on StackOverflow.
+Without the structured lessons, many BCIT graduates find it difficult to keep honing their skills.  There's plenty of free courses on YouTube, paid courses on [Udemy](https://www.udemy.com), and tons of meetups happening all the time.  But one of the single most valuable excercises for me has been posting on StackOverflow.
 
 Whether it's a question or an answer, the process involved in articulating your thoughts so that another person can clearly understand you is so critical in the workplace.  
 
