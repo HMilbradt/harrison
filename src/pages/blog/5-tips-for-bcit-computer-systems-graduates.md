@@ -39,12 +39,20 @@ Whether it's a question or an answer, the process involved in articulating your 
 
 One of my favourite things about running a blog is that every single post you write teaches you something new.  Whether it's technical, personal, travel-related, increasing your knowledge and experience base is one of the most important parts of being a great software engineer, and one that many ignore.
 
-There's plenty of fantastic services out there for getting a blog started, such a Medium for an already set up solution, all the way to Netlify, which is what powers this site.
+There's plenty of fantastic services out there for getting a blog started, such a [Medium](https://medium.com) for an already set up solution, all the way to [Netlify](https://www.netlify.com), which is what powers this site.
 
 ## Keep Your Friends Close
 
-Some of my best friendships were made at BCIT,
+Some of my best friendships were made at BCIT, while cramming for a test at 2am, or hacking out the last required feature for our group project 10 minutes before it's due date.  We formed lasting bonds with each other, and it's something that's paid off a year later.  
+
+I received the offer to the job I currently have because of one of these friendships, and I've had many other offers for varying types of roles.  Make sure you're making time to maintain these friendships, as they'll likely be the difference between an opportunity and a closed door.
 
 ## Start A Side Project
 
-asdfasf
+If there's one single thing that I believe the Computer Systems Technology program missed out on, it's teaching students how to maintain their software over a longer period of time.  I couldn't even put a number on the hacked solutions I threw together the night before a due date, never to be seen by another human being again.
+
+And this worked fantastically.  But if I had to come back to these "solutions" 6 months later, and attempt to fix something, or add more functionality, I likely wouldn't have any hair left.  And that's the feeling I had, 6 months after starting my first job, coming back to buggy and broken code.
+
+This is one of the most important pieces of being a truly great software engineer.  Learning how to make descisions that will directly affect your ability to fix them months, or even years, from now.  Learning to weed out the packages that will solve your problems, from the packages that are going to create a nightmare when the maintainer quits.
+
+This is why I suggest a personal project.  It could be a blog, a portfolio, or even a business idea.  As long as it's something that is perpetually a work in progress, you'll continue to find problems with your workflow and engineering practices.  Learn to make debugging your code a simple, 5 minute read through, and not something that requires an entire day and countless profanities.
