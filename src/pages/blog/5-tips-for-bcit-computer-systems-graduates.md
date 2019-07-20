@@ -4,13 +4,16 @@ title: 5 Tips For BCIT Computer Systems Graduates
 date: 2019-07-20T18:50:33.684Z
 description: >-
   One year ago, I remember walking out of my teams project presentation and
-  thinking "Okay, now what?".  I'm going to share some of my tips and tricks for
-  surviving after graduating.
+  thinking "Okay, now what?".  In this post, I'm going to share some great tips
+  for keeping yourself at the head of the graduating pack, and how to keep
+  progressing in your role as an engineer.
 featuredpost: false
 featuredimage: /img/bcit-logo.jpeg
 tags:
   - engineering
 ---
+Despite this post being largely about software engineering, and specifically devoted to BCIT CST grads, there's a great deal that can be generalized into whatever field or career you're looking to go into.  And while I could write an entire book on my experiences I've had post-graduation, I believe these 5 things will be the most impactful for a new graduates first steps.
+
 ## Be Realistic
 
 I got to watch a lot of my fellow classmates land great jobs, go off travelling, and get accepted into universities to continue their education in Computer Science.  Unfortunately, I also got to watch the opposite, and it usually came down to x reasons.
