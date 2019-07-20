@@ -5,8 +5,7 @@ date: 2019-07-20T18:50:33.684Z
 description: >-
   One year ago, I remember walking out of my teams project presentation and
   thinking "Okay, now what?".  In this post, I'm going to share some great tips
-  for keeping yourself at the head of the graduating pack, and how to keep
-  progressing in your role as an engineer.
+  for keeping yourself at the head of the graduating pack.
 featuredpost: false
 featuredimage: /img/bcit-logo.jpeg
 tags:
