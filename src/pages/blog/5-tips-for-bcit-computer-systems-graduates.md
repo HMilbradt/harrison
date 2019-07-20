@@ -13,7 +13,7 @@ tags:
 ---
 ![BCIT](/img/bcit-logo.jpeg "BCIT")
 
-Despite this post being largely about software engineering, and specifically devoted to BCIT CST graduates, there's a great deal that can be generalized into whatever field or career you're looking to go into.  And while I could write an entire book on my experiences I've had post-graduation, I believe these 5 things will be the most impactful for a new BCIT graduates first steps.
+Despite this post being largely about software engineering, and specifically devoted to BCIT CST graduates, there's a great deal of tips and tricks that can be generalized into whatever field or career you're looking to go into.  And while I could write an entire book on my experiences I've had post-graduation from the Computer Systems Technology program, I believe these 5 things will be the most impactful for a new BCIT graduates first steps.
 
 ## Be Realistic
 
@@ -29,7 +29,7 @@ Of my classmates that had difficulty finding work, a lot of them thought along t
 
 This has everything to do with supply and demand in the job market.  In Vancouver, for instance, there is a huge demand for web developers, and generally the positions don't require any formal education.  It's very easy to land your resume on the top of the pile with a few public repos and a personal project under your belt.
 
-For those pursuing jobs that require much more specialized training, like AI, the opportunities are a lot more scarce, and the applicants are generally much more educated.
+For those pursuing jobs that require much more specialized training, like AI, the opportunities are a lot more scarce, and the applicants are generally much more educated.  If the field you're planning to go into requires more than what BCIT CST provides, chances are the only way you're getting into the field is through a connection in your network, more schooling, or relevant work experience.
 
 So my advice?  Cast your net wide, learn from every interview you get (or don't get), and try to land your first job as soon as you can.  Having any experience greatly increases your chances of getting the opportunities you do want.
 
