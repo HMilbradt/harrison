@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 5 Tips For BCIT Computer Systems Graduates
+title: 5 Tips For BCIT Computer Systems Technology Graduates
 date: 2019-07-20T18:50:33.684Z
 description: >-
   One year ago, I remember walking out of my teams project presentation and
