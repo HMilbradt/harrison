@@ -6,4 +6,4 @@ subheading: 'Software, Bugs, & Bad Playlists.'
 ---
 ## Status Update
 
-If you didn't already hear, I'm working for the startup [Logo.com](https://logo.com), helping to create the next revolution in the design industry. Stay tuned for more news 👌
+I'll be heading to AWS re:Invent this December, drop me a message if you'd like to meet up there 🤟
