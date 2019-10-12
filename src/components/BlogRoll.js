@@ -38,7 +38,7 @@ class BlogRoll extends React.Component {
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
+                    <br />
                     <span className="subtitle is-size-5 is-block">
                       {post.frontmatter.date}
                     </span>
@@ -78,7 +78,7 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              excerpt(pruneLength: 250)
               id
               fields {
                 slug
