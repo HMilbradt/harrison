@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-image: /img/home-jumbotron.jpg
+image: 'https://ucarecdn.com/401e5743-471d-4055-943d-fc6721e47672/'
 title: I Make Things.
 subheading: 'Software, Bugs, & Bad Playlists.'
 ---
