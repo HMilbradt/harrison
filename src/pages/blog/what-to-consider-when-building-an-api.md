@@ -12,7 +12,7 @@ featuredimage: /img/b065aa5b-7d3e-492d-ab19-13a229e2ac76.jpeg
 tags:
   - Engineering
 ---
-Designing an API can be a daunting task for newer developers.  It's often their first departure from writing small projects that only they will use, and requires a lot more thought than simply solving the problem.  Who is going to use their API?  How do they intend for it to be used?  How are other people actually going to use their API?  And how will they API handle to changes in the future?  These are all really hard questions to answer, but critical to the longevity of any successful API.
+Designing an API can be a daunting task for newer developers.  It's often their first departure from writing small projects that only they will use, and requires a lot more thought than simply solving the problem.  Who is going to use their API?  How do they intend for it to be used?  How are other people actually going to use their API?  And how will their API handle changes in the future?  These are all really hard questions to answer, but critical to the longevity of any successful API.
 
 If you read that last paragraph and thought "Who cares? I'm the only one using this API.", then stop and take a step back.  You 6 weeks from now, or 6 months from now, is a completely different developer than the one sitting behind your computer screen right now.   You should never overestimate your ability to read your own code.
 
@@ -50,7 +50,7 @@ Planning again is a precursor to being able to make these decisions.  Always be 
 
 ## Clearly Document The API
 
-This goes without saying, but a well documented API makes for a happy developer, which means they're likely to continue to use your product.  My favourite example of amazing documentation is Stripe.  The thought that's gone into the layout, wording, and hierarchy is clearly on another level.  This is my go to for inspiration when wiritng my own documentation.
+This goes without saying, but a well documented API makes for a happy developer, which means they're likely to continue to use your product.  My favourite example of amazing documentation is [Stripe](https://stripe.com/docs/api).  The thought that's gone into the layout, wording, and hierarchy is clearly on another level.  This is my go to for inspiration when wiritng my own documentation.
 
 Just rememeber, it's not just about writing what your method does.  It's about laying it out in a way a layman can understand, even when it's a more experienced developer than yourself reading it.  Adding too much information is just as much a sin as adding too little, and adding information that isn't required to understand what's happening can lead to confusion.
 
