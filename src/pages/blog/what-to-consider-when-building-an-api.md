@@ -31,4 +31,17 @@ So far everything I've said relates to software development as a whole, but it r
 
 ## Get Feedback Early
 
-This, in my opinion, is the most important part in creating any new API.  Before this stage, everything you've built exists purely as a
+This, in my opinion, is the most important part in creating any new API.  Before this stage, everything you've built exists purely as an unvalidated concept in your head.  It's extremely important when designing a new API that you ship an MVP as early as possible to begin collecting feedback and bugs.
+
+Notice that this ties in with the last section.  In order to plan for an MVP, you first need to know what features are critical, and which features may be shipped in `V1.1`.  If possible, aim to gatehr this feedback before your first release.  Often, your own projects can serve to validate the API in the beta stages, but always aim for a second opinion.
+
+## Focus On The Interface
+
+Too often you see a friend, colleague, or peer, get stuck building the internals of their system, yet leave their API interface in an unfinished state.  You should always be aiming to finish your interface **first**.  Remember: if the API works, then your user is happy.  They don't care whether the underlying functions read from a file or a database, return static data or dynamically computed data.  This has two enormous benefits.
+
+1. You can get feedback quicker, empowering you to make better decisions.
+2. You can put off the non-critical pieces, while you work on building out more important functionality.
+
+For example, your API may offer a method to return a list of personalized movie recommendations for a user.  The critical piece is that a user receives a list of movies, while the slightly less critical piece is that the recommendations are personalized.  Instead of building out the entire system recommendation, you could instead just return a static or randomized list of movies, giving you more time to build out the other supporting pieces of the API, such as saving a movie to a users "watch list".
+
+Planning again is a precursor to being able to make these decisions.  Always be forward thinking in the work that's needed to be completed, and **when** that work needs to be completed.  If you find yourself working on something for more than a couple hours, chances are it's time to wrap it up, and focus on another piece of the system.
