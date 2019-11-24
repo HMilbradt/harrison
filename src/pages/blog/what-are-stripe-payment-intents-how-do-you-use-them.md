@@ -13,6 +13,6 @@ Over the past decade, there has been an enourmous uptick in the number of online
 
 That question is often posed in the context of consumer security, but it's also the businesses accepting these cards that need to be careful.  If your're an online retialer, too many chargebacks or fraudulent purchases can have a hugely negative impact on the rates you receive from your payment provider.  This can completely kill a businesses margins, and ruin a consumers trust in the platform as a whole.  So what's the solution?
 
-While not a silver bullet, Stripe has an answer to some of these problems: [Payment Intents](https://stripe.com/docs/payments/payment-intents).  Most notably, payment intents come with built in support for [Strong Customer Authentication](https://stripe.com/docs/strong-customer-authentication) (SCA), giving merchants a better stronger gaurantee that customer they're serving is authentic.
+While not a silver bullet, Stripe has an answer to some of these problems: [Payment Intents](https://stripe.com/docs/payments/payment-intents).  Most notably, payment intents come with built in support for [Strong Customer Authentication](https://stripe.com/docs/strong-customer-authentication) (SCA), giving merchants a better stronger gaurantee that the card a customer is using belongs to them.
 
-So with that little intro out of the way, let's talk about
+So with that little intro out of the way, let's take a look at how Payment Intents work.
