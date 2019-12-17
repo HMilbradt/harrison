@@ -13,8 +13,6 @@ tags:
 ---
 Over the past year, I've paid close attention to both [Amplify](https://aws-amplify.github.io) and [Netlify](https://www.netlify.com), watching as they add new features, close off pain points for their users, and pave the way towards modern web development.  But it wasn't until recently that I had to ask myself: which one should I choose?
 
-
-
 In the following sections, I'll give a little summary of each, in case you don't jnow much about either, or haven't been following them in the past several months.
 
 ## What Is Netlify?
