@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Fixing UPDATE_ROLLBACK_FAILED in Serverless
+title: 'Easy fix for UPDATE_ROLLBACK FAILED in Cloudformation, Serverless, and AWS SAM'
 date: 2019-11-07T19:14:24.002Z
 description: >-
   Recently, I ran into an issue with deploying my Serverless application.  After
